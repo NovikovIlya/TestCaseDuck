@@ -1323,6 +1323,7 @@
 .swiper-button-next,
 .swiper-button-prev {
   z-index: 10000000000000000000000;
+  color: #DCDCDC;
 }
 .ww {
   overflow-y: visible !important;
