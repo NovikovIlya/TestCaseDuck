@@ -260,6 +260,7 @@
   white-space: nowrap;
   line-height: 130%;
   padding: 0 10px;
+  margin-bottom: 24px;
 }
 .div-26 {
   font-family: Gilroy, sans-serif;
@@ -368,7 +369,7 @@
 .div-33 {
   display: flex;
   margin-top: 12px;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   gap: 8px;
   font-weight: 500;
 }
@@ -392,9 +393,13 @@
   font: 40px Neuzeit Grotesk, sans-serif;
 }
 .div-37 {
+    width: 93px;
+    height: 32px;
+    display: flex;
+    align-items: center;
   border-radius: 40px;
   background: linear-gradient(106deg, #69b1c9 11.42%, #6081c3 53.89%, #5558af 95.29%);
-  flex-grow: 1;
+  /* flex-grow: 1; */
   justify-content: center;
   color: var(--white-ffffff-100, #fff);
   text-align: center;
@@ -641,6 +646,11 @@
   object-fit: auto;
   object-position: center;
   width: 100%;
+  height: 85%;
+}
+.gtc{
+    display: grid !important;
+    grid-template-columns: 50% 50%;
 }
 .div-64 {
   color: var(--black-282828100, #282828);
@@ -677,6 +687,7 @@
   object-fit: auto;
   object-position: center;
   width: 100%;
+  height: 85%;
 }
 .div-68 {
   color: var(--black-282828100, #282828);
@@ -915,7 +926,7 @@
   border-radius: 50%;
 }
 .div-96 {
-  padding: 5px;
+  padding: 10px;
   color: var(--black-28282880, rgba(40, 40, 40, 0.8));
   margin-top: 20px;
   font: 400 14px/18px Gilroy, sans-serif;
@@ -1353,4 +1364,12 @@
 }
 .texnniz {
   margin-left: 10px;
+}
+.swiper-pagination-bullet{
+    background-color: black;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    background-color: white;
+    border: 1px black solid;
 }
