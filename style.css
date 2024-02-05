@@ -847,6 +847,7 @@
   flex-grow: 1;
 }
 .none {
+ transition: 1s;
   display: none;
 }
 .noneSpoiler {
@@ -1372,4 +1373,6 @@
 .swiper-pagination-bullet-active{
     background-color: white;
     border: 1px black solid;
+    width: 7px;
+    height: 7px;
 }
